@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 
 
+st.set_page_config(page_title="Access DataViz", page_icon="👁️", layout="centered")
     
 st.logo(
     image="AccessEye.png",
