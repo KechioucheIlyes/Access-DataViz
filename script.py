@@ -31,7 +31,7 @@ if uploaded_file is not None:
 
     df['Valeur'] = df['Valeur'].astype(int) / 1000
 
-    df_resampled = df.resample('h').sum()
+    df_resampled = df.resample('h').max()
     
 
     st.sidebar.header("Sélectionnez une plage de temps")
